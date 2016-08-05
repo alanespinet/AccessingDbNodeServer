@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../img/main-back.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#tasks-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.col {
+  background-color: rgba(0, 0, 0, .3);
+  border-radius: 10px;
+  width: 100%;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.col h1 {
+  border-bottom: solid 1px rgba(0, 0, 0, .3);
+  padding-bottom: 10px;
+}
+
+h1 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.4em;
+  font-weight: bold;
+  color: rgba(0, 0, 0, .6);
+  margin-bottom: 50px;
+}
+
+.main-h1 {
+  padding: 20px;
+  margin-bottom: 50px;
+  font-size: 2em;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 50px 10px;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+th {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+td {
+  font-size: 1.4em;
+}
+
+label {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1em;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 0.8em;
+}
+
+.create-button-class {
+  border: solid 2px black;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#show-create-task {
+  margin-left: 5%;
+}
+
+#show-create-task:hover,
+.create-button-class:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+#create-task-form {
+  width: 400px;
+  margin-left: 10%;
+  display: none;
+}
+
+#create-task-form div {
+  margin-bottom: 15px;
+}
+
+input[type="text"]{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 0.8em;
+  height: 30px;
+  background-color: rgba(255, 255, 255, .5);
+  border-radius: 10px;
+  width: 90%;
+  border: solid 1px gray;
+}
+
+.start_button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}

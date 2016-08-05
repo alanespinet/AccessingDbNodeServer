@@ -1,0 +1,23 @@
+#tasks-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.col {
+  flex-basis: 90%;
+  align-self: center;
+}
+
+
+@media (min-width: 1600px) {
+  #tasks-container {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .col {
+    flex-basis: 32%;
+    align-self: flex-start;
+  }
+}
